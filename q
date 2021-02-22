@@ -1,7 +1,7 @@
->>> from graphiit import Graph
+from graphiit import Graph
 import pyphi
 import numpy as np
->>> graph_config = [
+graph_config = [
 ('A','OR','B','C','D','E','F','G','H','I','J','K'),
 ('B','XNOR','A','C','D','E','F','G','H','I','J','K'),
 ('C','NOR','A','B','D','E','F','G','H','I','J','K'),
