@@ -12,7 +12,7 @@ graph_config = [
 ('H','OR','A','B','C','D','E','F','G','I','J','K'),
 ('I','XOR','A','B','C','D','E','F','G','H','J','K'),
 ('J','OR','A','B','C','D','E','F','G','H','I','K'),
-('K','AND','A','B','C','D','E','F','G','H','I','j')]
+('K','AND','A','B','C','D','E','F','G','H','I','J')]
 graph = Graph(graph_config)
 network = graph.pyphi_network()
 state = (1,0,0,0,0,0,0,1,1,0,0)
